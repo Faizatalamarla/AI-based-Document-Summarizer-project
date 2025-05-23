@@ -1,0 +1,35 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite Database files (optional: ignore if you're not sharing DB)
+*.db
+*.sqlite3
+
+# Environment variables and secret keys
+.env
+.env.*
+
+# Uploads and temporary files
+uploads/
+instance/
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and build artifacts
+*.egg-info/
+*.spec
+.pytest_cache/
+dist/
+build/
+
+# Virtual environment (if created locally)
+venv/
