@@ -26,6 +26,31 @@ A web application that uses **Natural Language Processing (NLP)** to summarize l
 | Auth       | bcrypt (hashed passwords) |
 
 ---
+## 📂 Project Structure
+
+```document-summarizer/
+├── app.py                  # Main Flask application
+├── requirements.txt        # Python dependencies
+├── README.md               # Project description
+├── LICENSE                 # MIT license
+├── .gitignore              # Files Git should ignore
+
+├── uploads/                # Temporary upload folder
+│   └── .gitkeep            # Keeps empty folder tracked by Git
+
+├── static/                 # Static assets like CSS or JS
+│   └── style.css           # Your neon-glow theme styles
+
+├── templates/              # All HTML templates
+│   ├── dashboard.html
+│   ├── history.html
+│   ├── login.html
+│   ├── paste.html
+│   ├── profile.html
+│   ├── register.html
+│   ├── result.html
+│   └── upload.html
+```
 
 ## 📦 Installation
 
